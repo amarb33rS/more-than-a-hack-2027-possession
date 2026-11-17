@@ -1,0 +1,42 @@
+{
+  "status": "completed",
+  "completed_at_utc": "2026-11-14T17:01:54.932962+00:00",
+  "csv": "C:\\Users\\singh\\Documents\\ChatGPT\\hack\\model-runs\\delivery-reproduction-v1\\extracted\\regenerated-target\\possession.csv",
+  "csv_sha256": "bc4320370b362aa195c0b99bd39fe1137abc42290e09a3c4293f1a7f1d61a1b1",
+  "byte_identical_to_frozen": true,
+  "frames": 199319,
+  "extracted_source": "C:\\Users\\singh\\Documents\\ChatGPT\\hack\\model-runs\\delivery-reproduction-v1\\extracted\\modeling\\__init__.py",
+  "wall_seconds": 53.06199999997625,
+  "official_validator": "passed",
+  "validator_sha256": "07ac29499acbd337e1dc1de1832d63f6e1fa1d981e22f6ad08212529e2bbee14",
+  "regenerated_summary": {
+    "status": "completed",
+    "frames": 199319,
+    "periods": [
+      {
+        "start": 11185,
+        "stop_exclusive": 90652,
+        "frames": 79467,
+        "ball_missing_fraction": 0.406508361961569
+      },
+      {
+        "start": 110808,
+        "stop_exclusive": 190198,
+        "frames": 79390,
+        "ball_missing_fraction": 0.40734349414283916
+      }
+    ],
+    "predicted_label_counts": {
+      "H": 60817,
+      "A": 41563,
+      "D": 56477,
+      "X": 40462
+    },
+    "csv_sha256": "bc4320370b362aa195c0b99bd39fe1137abc42290e09a3c4293f1a7f1d61a1b1",
+    "candidate_sha256": "252d051013cd41a92d0e5b92b7bb22c2f0978f49b8c94ed5e706e86befd685ad",
+    "mechanical_validation": "passed",
+    "limitations": "No target accuracy is measured; X is retained outside provided playing periods. Original/recovered video proposals are not fused."
+  },
+  "no_target_ground_truth_or_holdout_scores_read": true,
+  "runtime_note": "Fresh extracted source/models in clean child imports using existing pinned Windows Python environment; not a newly installed dependency environment"
+}

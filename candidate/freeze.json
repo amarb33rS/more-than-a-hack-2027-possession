@@ -1,0 +1,7 @@
+{
+  "status": "frozen",
+  "candidate_sha256": "252d051013cd41a92d0e5b92b7bb22c2f0978f49b8c94ed5e706e86befd685ad",
+  "canonical_candidate_sha256": "ef898c9ec6f380b9e80e7ddcf629bdae1d6a0695b910232695d8d8badd4fb5fb",
+  "relocation_only": true,
+  "frozen_before_holdout_access": true
+}

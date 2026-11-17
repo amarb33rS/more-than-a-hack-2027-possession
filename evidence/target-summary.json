@@ -1,0 +1,28 @@
+{
+  "status": "completed",
+  "frames": 199319,
+  "periods": [
+    {
+      "start": 11185,
+      "stop_exclusive": 90652,
+      "frames": 79467,
+      "ball_missing_fraction": 0.406508361961569
+    },
+    {
+      "start": 110808,
+      "stop_exclusive": 190198,
+      "frames": 79390,
+      "ball_missing_fraction": 0.40734349414283916
+    }
+  ],
+  "predicted_label_counts": {
+    "H": 60817,
+    "A": 41563,
+    "D": 56477,
+    "X": 40462
+  },
+  "csv_sha256": "bc4320370b362aa195c0b99bd39fe1137abc42290e09a3c4293f1a7f1d61a1b1",
+  "candidate_sha256": "ef898c9ec6f380b9e80e7ddcf629bdae1d6a0695b910232695d8d8badd4fb5fb",
+  "mechanical_validation": "passed",
+  "limitations": "No target accuracy is measured; X is retained outside provided playing periods. Original/recovered video proposals are not fused."
+}

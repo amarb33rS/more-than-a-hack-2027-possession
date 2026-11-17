@@ -1,0 +1,6 @@
+{
+  "train": ["J03WOH", "J03WOY", "J03WPY"],
+  "validation": ["J03WN1", "J03WQQ"],
+  "holdout": ["J03WMX", "J03WR9"],
+  "rationale": "Frozen before training: development validation includes one Bundesliga and one second-division match; final holdout does too. Repeated teams limit independence. Start with J03WOH for an engineering smoke run only; do not claim generalization from training-match metrics."
+}

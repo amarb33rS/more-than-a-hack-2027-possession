@@ -1,0 +1,29 @@
+{
+  "status": "completed",
+  "candidate_sha256": "ef898c9ec6f380b9e80e7ddcf629bdae1d6a0695b910232695d8d8badd4fb5fb",
+  "protocol_sha256": "cca463c41837ec7a2b940e4bf0dc9cd80ff8ac1c4905177d39000f80e1749a67",
+  "matches": {
+    "J03WMX": {
+      "spell_f1_mean": 0.6416475972540046,
+      "macro_f1": 0.9381946956784106,
+      "alive_dead_f1": 0.9983006352108384,
+      "n_gt_spells": 511,
+      "n_pred_spells": 363,
+      "n_graded": 145967
+    },
+    "J03WR9": {
+      "spell_f1_mean": 0.7299999999999999,
+      "macro_f1": 0.9498490991558506,
+      "alive_dead_f1": 0.9964662243596495,
+      "n_gt_spells": 370,
+      "n_pred_spells": 310,
+      "n_graded": 146810
+    }
+  },
+  "mean": {
+    "spell_f1_mean": 0.6858237986270022,
+    "macro_f1": 0.9440218974171306,
+    "alive_dead_f1": 0.997383429785244
+  },
+  "limitations": "One pre-frozen configuration on two untouched external clean matches; no alternatives, target assets or target export"
+}

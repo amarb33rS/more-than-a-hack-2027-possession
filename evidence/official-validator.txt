@@ -1,0 +1,15 @@
+OK    possession.csv
+      199319 rows, frame 0..199318
+
+      label counts
+        H    60817   30.5%
+        A    41563   20.9%
+        D    56477   28.3%
+        X    40462   20.3%
+
+      reports 412 possessions of mean 9.9 s
+      (counted with each X as a gap; the scorer bridges abstentions inside a real
+       possession, so its count can be lower than this one)
+
+Valid. Note this checks the format only -- it says nothing about whether the labels are right.
+Score it against the public ground truth with run_evaluation.py.
